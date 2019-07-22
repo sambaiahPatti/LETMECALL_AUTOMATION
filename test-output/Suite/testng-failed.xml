@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="letmecalltest.LocationPageTest">
+        <methods>
+          <include name="profile"/>
+          <include name="driverClose"/>
+          <include name="loginPage"/>
+          <include name="setUp"/>
+          <include name="locationSearchTest"/>
+        </methods>
+      </class> <!-- letmecalltest.LocationPageTest -->
+      <class name="letmecalltest.LoginPageTest">
+        <methods>
+          <include name="initilize"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- letmecalltest.LoginPageTest -->
+      <class name="letmecalltest.MyOrderPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="deliverOrderItemTest"/>
+        </methods>
+      </class> <!-- letmecalltest.MyOrderPageTest -->
+      <class name="letmecalltest.RegisterPageTest">
+        <methods>
+          <include name="initializationTest"/>
+          <include name="registerAccount"/>
+          <include name="titleVerify"/>
+        </methods>
+      </class> <!-- letmecalltest.RegisterPageTest -->
+      <class name="letmecalltest.ProfilePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="accntInformationTest"/>
+          <include name="myprofileTest"/>
+        </methods>
+      </class> <!-- letmecalltest.ProfilePageTest -->
+      <class name="letmecalltest.AbhirestaurantTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="abhiRestaurentJawarRoti"/>
+          <include name="addressDetails"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- letmecalltest.AbhirestaurantTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

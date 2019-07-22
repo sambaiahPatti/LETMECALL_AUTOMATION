@@ -1,0 +1,42 @@
+registerUrl=http://45.33.46.234:8080/register
+
+loginUrl=http://45.33.46.234:8080/food
+first=sambaiah
+mailId=samba@gmail.com
+ph=7661057418
+reg_pwd=Samba@123
+zip=516101
+
+
+log_Email=sambaiah.patti@letmecall.com
+log_Pwd=Samba@123
+
+
+location=LB Nagar, Hyderabad, Telangana, India
+
+
+excelpath=C:\Users\welcome\Desktop\data driven Microsoft 1.xls
+
+oldpwd=Samba@123
+newpwd=samba@123
+
+efname=royal
+
+elname=samba
+
+dob=01/14/1996
+
+editpne=9666383600
+
+Fdate=08/08/2018
+
+Tdate=09/20/2018
+
+specialInstructionfield= add masala and pure ghee
+customerName=samba
+lastName=pathi
+deliverymail=sambaiah.patti@letmecall.com
+deliveryphone=7661057418
+addressline1=cnr complex
+addressline2=5/165
+driverInstructions=beware of dog is there
