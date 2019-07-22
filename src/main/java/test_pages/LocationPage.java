@@ -9,7 +9,6 @@ import test_Base.TestBase;
 import test_util.TestUtil;
 
 public class LocationPage extends TestBase{
-	public WebDriver driver;
 		public LocationPage(WebDriver driver) {
 			this.driver=driver;
 			PageFactory.initElements(driver, this);
@@ -20,8 +19,8 @@ public class LocationPage extends TestBase{
 		@FindBy(xpath ="//*[contains(@class,'mega dropdown')]")
 		public static WebElement account;
 
-		@FindBy(xpath ="//*[contains(@id,'searchbox')]")
-		public WebElement searchbox;
+		@FindBy(xpath ="//input[@id='searchbox']")
+		public static WebElement searchbox;
 
 		@FindBy(xpath ="//*[@id='menuProfile']/div/div/ul/li[1]/a")
 		public static WebElement profile;
