@@ -1,0 +1,5 @@
+git filter-branch --env-filter '
+if [ "$GIT_AUTHOR_NAME" = "AliveluYadav" ]; then \
+    export GIT_AUTHOR_NAME="SambaRoyal" GIT_AUTHOR_EMAIL="sambapathi1996@gmail.com"; \
+fi
+'
